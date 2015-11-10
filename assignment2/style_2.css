@@ -1,0 +1,203 @@
+/* 
+    Document   : style1.css
+    Created on : June 24, 2013, 9:07:10 PM
+    Author     : gxlzlihao
+    Description:
+        Purpose of the stylesheet follows.
+		*/
+
+/*reset of the css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*end of the reset*/
+body {
+	background-color:white
+}
+#all {
+	margin:0 auto;
+    background-color: black;
+	width:1024px;
+	padding:10px 0 10px 0;
+}
+#header {
+	position:relative;
+    background-color: green;
+    height: 200px;
+	width:1024px;
+	margin:0 auto;
+	overflow: auto;
+	padding:0 0 0 0;
+}
+#header_text {
+	
+	margin-left:200px;
+	margin-right:200px;
+}
+#header_logo {
+	position:absolute;
+	float:right;
+	bottom: 0;
+	right: 0;
+}
+#main {
+	position:relative;
+	overflow:auto;
+	height:400px;
+}
+#sections {
+	position:absolute;
+	display:block;
+	overflow:auto;
+	width: 784px;
+	top: 0;
+	left: 0;
+	margin: 20px 10px 10px 10px;
+}
+.content {
+	position:relative;
+	background-color: white;
+	margin: 10px;
+	margin-top:20px;
+	margin-right: 30px;
+	margin-left: 0;
+
+	height:100px;
+	
+	border-bottom: dotted;
+	border-bottom-color: #ED2D7D;
+	border-bottom-width: 5px;
+	border-right: dotted;
+	border-right-color: #13F222;
+	border-right-width: 5px;
+}
+#sidebar {
+	position: absolute;
+	display:block;
+	background-color:blue;
+	top: 0;
+	left: 0;
+	margin: 5px 10px 5px 10px;
+}
+.item {
+	float:left;
+	position:relative;
+	background-color:yellow;
+	margin: 0 10px 0 0;
+	border-left: solid;
+	border-left-color: yellow;
+	border-right: solid;
+	border-right-color: yellow;
+}
+.item:first-child {
+	float:left;
+	position:relative;
+	background-color:yellow;
+	width:50px;
+	margin: 0 10px 0 10px;
+	border-left: solid;
+	border-left-color: yellow;
+	border-right: solid;
+	border-right-color: yellow;
+}
+
+.item:hover {
+	float:left;
+	position:relative;
+	background-color:yellow;
+	width:50px;
+	margin: 0 10px 0 0;
+	border-left: solid;
+	border-left-color: red;
+	border-right: solid;
+	border-right-color: red;
+}
+.item:first-child:hover {
+	float:left;
+	position:relative;
+	background-color:yellow;
+	width:50px;
+	margin: 0 10px 0 10px;
+	border-left: solid;
+	border-left-color: red;
+	border-right: solid;
+	border-right-color: red;
+}
+
+#sidebar h2 {
+	display:none;
+	float:left;
+	font-size:24px;
+}
+h1 {
+	font-size:200%;
+	margin: 10px;
+	margin-left:30px;
+}
+h1::first-letter {
+	font-size: 130%;
+}
+.content p {
+	position:relative;
+	border-left: solid;
+	border-left-color: black;
+	margin-left:50px;
+	padding-left: 5px;
+}
+#footer {
+	position: relative;
+	height:100px;
+	width:1024px;
+	margin:0 auto;
+	background-color:#0D81E0;
+	border-top: solid;
+	border-top-color: white;
+	padding-top: 10px;
+}
+#footer_text {
+	margin-top: 20px;
+	text-align:center;
+}

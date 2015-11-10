@@ -1,0 +1,31 @@
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;padding: 0;border: 0;outline: 0;
+    font-size: 100%;vertical-align: baseline;
+    background: transparent;}
+body { line-height: 1; }
+ul {list-style: none;}
+
+/* ============================== styling ======================================= */
+body { background:#c1c1c1; }
+ 
+ul { margin: 150px auto; width: 800px; overflow: auto; 
+     background:url('images/menu-bg.jpg');/* add some more, like the image in the background */ }
+
+ul li { float:left; width: 200px; height: 100px; z-index:10;/* and some more properties to place them horizontally */ }
+
+ul li#shutter1 { background:url('images/africanplains.jpg') no-repeat; }
+ul li#shutter2 { background:url('images/arcticzone.jpg') no-repeat; }
+ul li#shutter3 { background:url('images/aviary.jpg') no-repeat; }
+ul li#shutter4 { background:url('images/reptiles.jpg') no-repeat; }
+
+ul li a { width: 200px; height: 100px;background-image:url('images/window.png');display:block; /* make the text go away by using text-indent, and fix the background image */ }
+
+/* extra */
+p { margin-bottom:20px; text-align:center; }
+#button { text-decoration:underline; cursor:pointer; }
+#img-container { display:none; text-align:center; }
+#img-container img {padding:5px; }
+#img-container img[alt="background"] { background-color:black; }
+#img-container img[alt="shutter"] { background-color:blue; }
+#img-container img[alt="viewer"] { background-color:green; }
